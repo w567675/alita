@@ -1988,6 +1988,11 @@
   version "0.2.3"
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
 
+"@bloomberg/record-tuple-polyfill@0.0.3":
+  version "0.0.3"
+  resolved "https://registry.npm.taobao.org/@bloomberg/record-tuple-polyfill/download/@bloomberg/record-tuple-polyfill-0.0.3.tgz?cache=0&sync_timestamp=1617346222300&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40bloomberg%2Frecord-tuple-polyfill%2Fdownload%2F%40bloomberg%2Frecord-tuple-polyfill-0.0.3.tgz#0b03d18b88a30894caab14abd669b1cbbf47b843"
+  integrity sha1-CwPRi4ijCJTKqxSr1mmxy79HuEM=
+
 "@cnakazawa/watch@^1.0.3":
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/@cnakazawa/watch/-/watch-1.0.4.tgz#f864ae85004d0fcab6f50be9141c4da368d1656a"
@@ -4159,6 +4164,17 @@
     jest-worker "24.9.0"
     prettier "2.2.1"
 
+"@umijs/deps@3.4.11":
+  version "3.4.11"
+  resolved "https://registry.nlark.com/@umijs/deps/download/@umijs/deps-3.4.11.tgz?cache=0&sync_timestamp=1618906139405&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40umijs%2Fdeps%2Fdownload%2F%40umijs%2Fdeps-3.4.11.tgz#ad846439d49d4f8a0684694b750803d73a1b5bf3"
+  integrity sha1-rYRkOdSdT4oGhGlLdQgD1zobW/M=
+  dependencies:
+    "@bloomberg/record-tuple-polyfill" "0.0.3"
+    chokidar "3.5.1"
+    clipboardy "2.3.0"
+    jest-worker "24.9.0"
+    prettier "2.2.1"
+
 "@umijs/error-code-map@^1.0.1":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@umijs/error-code-map/-/error-code-map-1.0.1.tgz#2a2dd7b4bcd11869e968264ff3dabacfabe8b874"
@@ -4423,6 +4439,13 @@
   integrity sha512-B0iSEClYYQ9aJPVyhSYXTqenMgVMsDtRFo8KnR7d7pZrFn+Iw3gJ85Y8WvcNFUS8Gh7iJQ0n88WAs0gnZSUFtg==
   dependencies:
     "@umijs/deps" "0.5.0"
+
+"@umijs/utils@^3.4.0":
+  version "3.4.11"
+  resolved "https://registry.nlark.com/@umijs/utils/download/@umijs/utils-3.4.11.tgz?cache=0&sync_timestamp=1618906001842&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40umijs%2Futils%2Fdownload%2F%40umijs%2Futils-3.4.11.tgz#41e78ada49aaf2bf2247f0f76866fb6f5f92b837"
+  integrity sha1-QeeK2kmq8r8iR/D3aGb7b1+SuDc=
+  dependencies:
+    "@umijs/deps" "3.4.11"
 
 "@zeit/schemas@2.6.0":
   version "2.6.0"
@@ -16778,7 +16801,7 @@ uuid@^3.0.1, uuid@^3.3.2, uuid@^3.3.3, uuid@^3.4.0:
   version "3.4.0"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.4.0.tgz#b23e4358afa8a202fe7a100af1f5f883f02007ee"
 
-v8-compile-cache@2.3.0, v8-compile-cache@^2.3.0:
+v8-compile-cache@2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/v8-compile-cache/-/v8-compile-cache-2.3.0.tgz#2de19618c66dc247dcfb6f99338035d8245a2cee"
   integrity sha512-l8lCEmLcLYZh4nbunNZvQCJc5pv7+RCwa8q/LdUx8u7lsWvPDKmpodJAJNwkAhJC//dFY48KuIEmjtd4RViDrA==
